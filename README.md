@@ -83,6 +83,13 @@ missing_data = pd.concat([total, percent], axis=1, keys=['total', 'percent %'])
 
 # lets check the head of the data
 missing_data
+
+# lets remove Remarks column, as it contains a lot o nans, and high cardinal column
+
+data = data.drop(['Remarks'], axis=1)
+
+# lets check the column names after removing the Remarks column, as it having
+data.columns
 ```
 ```python
 # Convert Date column to datetime format
