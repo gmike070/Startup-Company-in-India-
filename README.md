@@ -1,4 +1,4 @@
-# Startup-Company-in-India-
+# Startups_Company_in_India_Analysis
 Using Python to analysis Startup companies in India Ecosystem
 ### Excited to share my latest project!
 I recently conducted a data analysis on startup companies in India using Python. The analysis revealed some fascinating insights, and I've created some compelling visualizations to showcase the findings.
