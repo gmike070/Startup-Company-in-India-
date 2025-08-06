@@ -10,7 +10,7 @@ To analyze the growth and transformation of the Indian startup ecosystem using d
    
 The goal is to uncover patterns, identify key trends, and derive insights that can inform investors, entrepreneurs, and policy makers.
    
-The dataset comprises 3000 observations and 10 attribute
+The dataset comprises 3000 observations and 10 attribute.
 
 ### Setting up the environment
 Installing the required libraries:
