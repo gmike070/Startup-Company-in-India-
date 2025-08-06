@@ -3,7 +3,7 @@
 Using Python to analysis Startup companies in India Ecosystem
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
-The goal is to uncover patterns, identify key trends, and derive insights that can inform investors, entrepreneurs, and policy makers.
+
 1.	How the ecosystem has changed with time
 2.	How the numbers of startup have increased
 3.	The support and funding option that is available
