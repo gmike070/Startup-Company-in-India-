@@ -101,6 +101,7 @@ data['AmountInUSD'] = pd.to_numeric(data['AmountInUSD'], errors='coerce')
 ```
 ### Analysis 1: Ecosystem Change Over Time
 a. Industry Growth Over Years
+
 Python code:
  ```python
 industry_by_year = data.groupby(['Year', 'IndustryVertical']).size().unstack().fillna(0)
@@ -119,6 +120,7 @@ Output:
 
 
 b. City-wise Activity Over Time
+
 Python code:
 ```python city_year = data.groupby(['Year', 'City']).size().unstack().fillna(0)
 top_cities = city_year.sum().sort_values(ascending=False).head(5).index
@@ -133,6 +135,7 @@ Output:
 
 ### Analysis 2: Startup Growth
 a. Number of Startups Funded Per Year
+
 Python code:
  ```python
 startup_growth = data.groupby('Year')['StartupName'].nunique()
@@ -149,6 +152,7 @@ Output:
  
 
 b. Cumulative Growth
+
 Python code:
 ```python
  cumulative = data.groupby('Year')['StartupName'].nunique().cumsum()
@@ -162,17 +166,13 @@ plt.show()
 ```
 Output:
 
- <img width="609" height="368" alt="image" src="https://github.com/user-attachments/assets/e2cdcde4-cc3f-4ce4-86fc-134dc858bf47" />
+<img width="609" height="368" alt="image" src="https://github.com/user-attachments/assets/e2cdcde4-cc3f-4ce4-86fc-134dc858bf47" />
 
 ### Analysis 3: Support & Funding
 a. Most Active Investors
+
 Python code:
- 
-Output:
- 
-b. Funding Amount Over the Years
-Python code:
-```python
+ ```python
 top_investors = data['InvestorsName'].str.split(',').explode().str.strip().value_counts().head(10)
 
 sns.barplot(x=top_investors.values, y=top_investors.index)
@@ -183,11 +183,13 @@ plt.show()
  ```
 Output:
 
- <img width="975" height="220" alt="image" src="https://github.com/user-attachments/assets/8c0500bc-9d19-40d3-bd4c-8ca606a926b5" />
+<img width="975" height="220" alt="image" src="https://github.com/user-attachments/assets/534dbfff-ce70-4053-9727-055f13b7b0c8" />
 
-c. Who plays the main role in indian startups Ecosytems?
-Python Code:
-  ```python
+
+b. Funding Amount Over the Years
+
+Python code:
+```python
 funding_by_year = data.groupby('Year')['AmountInUSD'].sum()
 
 funding_by_year.plot(kind='bar', figsize=(10,6))
@@ -195,10 +197,32 @@ plt.title('Total Funding Amount Per Year (USD)')
 plt.xlabel('Year')
 plt.ylabel('Amount in USD')
 plt.show()
+
  ```
 Output:
 
- <img width="650" height="443" alt="image" src="https://github.com/user-attachments/assets/57d5eb08-06f2-444c-b058-91ca2fcd1dbf" />
+<img width="650" height="443" alt="image" src="https://github.com/user-attachments/assets/b21322f8-0b7f-4a74-8300-8c4028e7111e" />
+
+
+c. Who plays the main role in indian startups Ecosytems?
+
+Python Code:
+  ```python
+from wordcloud import WordCloud
+
+names = data["InvestorsName"][~pd.isnull(data["InvestorsName"])]
+wordcloud = WordCloud(max_font_size=50, width =600, height =300, background_color = 'cyan').generate(' '.join(names))
+plt.figure(figsize=(15,8))
+plt.imshow(wordcloud)
+plt.title('Wordcloud for investor Names', fontsize =35)
+plt.axis('off')
+plt.show()     
+
+ ```
+Output:
+
+<img width="817" height="448" alt="image" src="https://github.com/user-attachments/assets/b50b9163-270e-4280-817b-d25256ea7bbd" />
+
 
 ### Recommendations & Conclusion
 ✅ 1. How the Ecosystem Has Changed Over Time
