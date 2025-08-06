@@ -1,28 +1,34 @@
 # Startups_Company_in_India_Analysis
+### Analyzing the growth of Indian startups 
 Using Python to analysis Startup companies in India Ecosystem
-### Excited to share my latest project!
-I recently conducted a data analysis on startup companies in India using Python. The analysis revealed some fascinating insights, and I've created some compelling visualizations to showcase the findings.
-
-### Analyzing the growth of Indian startups Problem statement:
+### Objective:
+To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
+The goal is to uncover patterns, identify key trends, and derive insights that can inform investors, entrepreneurs, and policy makers.
 1.	How the ecosystem has changed with time
 2.	How the numbers of startup have increased
 3.	The support and funding option that is available
    
+The goal is to uncover patterns, identify key trends, and derive insights that can inform investors, entrepreneurs, and policy makers.
+   
 The dataset comprises 3000 observations and 10 attribute
 
 ### Setting up the environment
-Installing the required libraries
-We need Numpy for mathematical operation
-Pandas for Dataframe Manipulation
-Seaborn and Matplotlib for data visualization
-And finally Jupyter Notebook to build an interactive ipython notebook
+Installing the required libraries:
+
+•	We need Numpy for mathematical operation
+
+•	Pandas for Dataframe Manipulation
+
+•	Seaborn and Matplotlib for data visualization
+
+•	And finally Jupyter Notebook to build an interactive ipython notebook
+
 
 ### Data Cleaning
 Data cleaning is the process of detecting and correcting or removing the corrupt or inaccurate records for a record set, dataframe, database and refers to identifying the incomplete, incorrect and inaccurate or irrelevant parts of the data and then replacing, modifying and deleting the dirty or coarse data.
 Again, Data cleaning is crucial and emphasized because wrong data can drive a business to wrong decisions, conclusion and pool analysis especially if the huge quantities of big data are into the picture.
 
-### ANALYZING THE GROWTH OF INDIAN STARTUPS
-### ANALYSIS OBJECTIVES:
+### Analyzing Obective:
 1. How the ecosystem has changed with time
 We’ll track how industries, cities, and sectors have evolved over the years.
 2. How the number of startups has increased
@@ -30,7 +36,7 @@ We'll calculate startups founded or funded per year.
 3. The support and funding options that are available
 We'll identify top investors, investment types, and funding trends.
 
-### PYTHON CODE (Step-by-Step)
+### Python Code (Step-by-Step)
 Step 1: Import Libraries
    ```python
     import pandas as pd
@@ -93,7 +99,7 @@ data['Month'] = data['Date'].dt.month
 data['AmountInUSD'] = data['AmountInUSD'].replace('[\$,]', '', regex=True)
 data['AmountInUSD'] = pd.to_numeric(data['AmountInUSD'], errors='coerce')
 ```
-### ANALYSIS 1: Ecosystem Change Over Time
+### Analysis 1: Ecosystem Change Over Time
 a. Industry Growth Over Years
 Python code:
  ```python
@@ -125,7 +131,7 @@ plt.show()
 Output:
 <img width="825" height="429" alt="image" src="https://github.com/user-attachments/assets/93328a62-3a54-4927-a3f1-10eeb2678f07" />
 
-### ANALYSIS 2: Startup Growth
+### Analysis 2: Startup Growth
 a. Number of Startups Funded Per Year
 Python code:
  ```python
@@ -158,7 +164,7 @@ Output:
 
  <img width="609" height="368" alt="image" src="https://github.com/user-attachments/assets/e2cdcde4-cc3f-4ce4-86fc-134dc858bf47" />
 
-### ANALYSIS 3: Support & Funding
+### Analysis 3: Support & Funding
 a. Most Active Investors
 Python code:
  
