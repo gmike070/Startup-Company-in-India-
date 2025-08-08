@@ -2,9 +2,12 @@
 ## Table of Contents
 
 • [Objective](#objective) 
-•	[Setting up the environment](#Setting-up-the-environment)
-•  [Data Cleaning](#data-cleaning)
-•  Analyzing Obective
+
+• [Setting up the environment](#Setting-up-the-environment)
+
+• [Data Cleaning](#data-cleaning)
+
+• [Analyzing Objective](#analyzing-objective)
 •
 •
 ### Objective:
