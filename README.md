@@ -22,6 +22,7 @@
 • [Overall Conclusion](#overall-conclusion)
 
 ### Objective:
+---
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
 
 1.	How the ecosystem has changed with time
