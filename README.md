@@ -11,10 +11,12 @@
 
 • [Python Code(Step-by-Step)](#python-Code(Step-by-Step))
 
-• [Analysis 1Ecosystem Change Over Time](#analysis-1-ecosystem-change-over-time)
+• [Analysis 1 Ecosystem Change Over Time](#analysis-1-ecosystem-change-over-time)
 
-• [Analysis 2 Startup Growth](#analysis -2-startup-growth)
-• [Support & Funding](#support-&-funding)
+• [Analysis 2 Startup Growth](#analysis-2-startup-growth)
+
+
+• [Analysis 3 Support & Funding](#analysis-3-support-&-funding)
 
 
 ### Objective:
@@ -191,7 +193,7 @@ Output:
 
 <img width="609" height="368" alt="image" src="https://github.com/user-attachments/assets/e2cdcde4-cc3f-4ce4-86fc-134dc858bf47" />
 
-### Support & Funding
+### Analysis 3:Support & Funding
 a. Most Active Investors
 
 Python code:
