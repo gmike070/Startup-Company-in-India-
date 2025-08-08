@@ -1,4 +1,4 @@
-# Startups_Company_in_India_Analysis
+# Startups_Company_in_Indian_Analysis
 ### Analyzing the growth of Indian startups 
 Using Python to analysis Startup companies in India Ecosystem
 ### Objective:
