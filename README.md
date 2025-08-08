@@ -14,6 +14,8 @@
 • [Analysis 1:Ecosystem Change Over Time](#analysis-1:-ecosystem-change-over-time)
 
 • [Analysis 2: Startup Growth](#analysis -2:-startup-growth)
+• [Support & Funding](#support-&-funding)
+
 
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
@@ -189,7 +191,7 @@ Output:
 
 <img width="609" height="368" alt="image" src="https://github.com/user-attachments/assets/e2cdcde4-cc3f-4ce4-86fc-134dc858bf47" />
 
-### Analysis 3: Support & Funding
+### Support & Funding
 a. Most Active Investors
 
 Python code:
