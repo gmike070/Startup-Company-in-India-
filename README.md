@@ -15,9 +15,11 @@
 
 • [Analysis 2 Startup Growth](#analysis-2-startup-growth)
 
-
 • [Analysis 3 Support & Funding](#analysis-3-support-&-funding)
 
+• [Recommendations & Conclusion](#recommendations-&-conclusion)
+
+• [Overall Conclusion](#overall-conclusion)
 
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
