@@ -1,6 +1,12 @@
-# Startups_Company_in_Indian_Analysis
-### Analyzing the growth of Indian startups 
-Using Python to analysis Startup companies in India Ecosystem
+# Analyzing the growth of Indian startups companies Using Python
+## Table of Contents
+
+• [Objective](#objective) 
+•	[Setting up the environment](#Setting-up-the-environment)
+•  [Data Cleaning](#data-cleaning)
+•  Analyzing Obective
+•
+•
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
 
@@ -232,7 +238,7 @@ Output:
 
 
 ### Recommendations & Conclusion
-✅ 1. How the Ecosystem Has Changed Over Time
+#### 1. How the Ecosystem Has Changed Over Time
 Findings:
 
 The Indian startup ecosystem has matured significantly from 2015 onwards, with a surge in funding between 2015–2019 and in some cases post-2021.
@@ -245,13 +251,13 @@ To newer areas like FinTech, HealthTech, EdTech, and AI-based platforms
 
 Cities like Bangalore, Mumbai, and Delhi NCR remain dominant hubs, but there’s visible growth in Tier-2 cities like Pune, Ahmedabad, and Jaipur.
 
-Recommendation:
+#### Recommendation:
 
 Investors and policymakers should foster decentralized innovation by supporting startup incubation in Tier-2 and Tier-3 cities.
 
 Encourage industry-specific accelerators in emerging verticals like Climate Tech and Agritech.
 
-✅ 2. How the Number of Startups Has Increased
+#### 2. How the Number of Startups Has Increased
 Findings:
 
 There has been a steady year-on-year growth in the number of unique startups receiving funding.
@@ -260,13 +266,13 @@ Cumulative growth shows that Indian startups are increasingly attracting capital
 
 The post-pandemic recovery (2021) saw renewed investor interest.
 
-Recommendation:
+#### Recommendation:
 
 Continue nurturing early-stage funding environments (e.g., angel networks, startup seed funds).
 
 Provide structured mentorship through government or industry-led programs to support early-stage scalability.
 
-✅ 3. The Support and Funding Options That Are Available
+#### 3. The Support and Funding Options That Are Available
 Findings:
 
 Angel investments, Seed funding, and Series A dominate early years.
@@ -277,7 +283,7 @@ Top investors include venture capital firms like Sequoia Capital, Accel Partners
 
 Government schemes (like Startup India) are present but underrepresented in disclosed investor lists.
 
-Recommendation:
+#### Recommendation:
 
 Create more accessible platforms for startups to find suitable investors based on their stage and sector.
 
