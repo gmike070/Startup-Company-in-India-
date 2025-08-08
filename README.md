@@ -11,7 +11,7 @@
 
 • [Python Code(Step-by-Step)](#python-Code(Step-by-Step))
 
-• [Analysis 1:Ecosystem Change Over Time](#analysis-1:-ecosystem-change-over-time)
+• [Analysis 1Ecosystem Change Over Time](#analysis-1-ecosystem-change-over-time)
 
 • [Analysis 2: Startup Growth](#analysis -2:-startup-growth)
 • [Support & Funding](#support-&-funding)
