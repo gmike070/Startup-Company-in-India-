@@ -12,6 +12,9 @@
 • [Python Code(Step-by-Step)](#python-Code(Step-by-Step))
 
 • [Analysis 1:Ecosystem Change Over Time](#Analysis-1:-ecosystem-change-over-time)
+
+• [Analysis 2: Startup Growth](#Analysis 2: Startup Growth)
+
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
 
