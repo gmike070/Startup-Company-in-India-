@@ -8,8 +8,10 @@
 • [Data Cleaning](#data-cleaning)
 
 • [Analyzing Objective](#analyzing-objective)
-•
-•
+
+• [Python Code(Step-by-Step)](#python-Code(Step-by-Step))
+
+• [Analysis 1:Ecosystem Change Over Time](#Analysis-1:-ecosystem-change-over-time)
 ### Objective:
 To analyze the growth and transformation of the Indian startup ecosystem using data-driven techniques. This project explores:
 
@@ -37,7 +39,7 @@ Installing the required libraries:
 Data cleaning is the process of detecting and correcting or removing the corrupt or inaccurate records for a record set, dataframe, database and refers to identifying the incomplete, incorrect and inaccurate or irrelevant parts of the data and then replacing, modifying and deleting the dirty or coarse data.
 Again, Data cleaning is crucial and emphasized because wrong data can drive a business to wrong decisions, conclusion and pool analysis especially if the huge quantities of big data are into the picture.
 
-### Analyzing Obective:
+### Analyzing Objective:
 1. How the ecosystem has changed with time
 We’ll track how industries, cities, and sectors have evolved over the years.
 2. How the number of startups has increased
@@ -115,7 +117,7 @@ data['Month'] = data['Date'].dt.month
 data['AmountInUSD'] = data['AmountInUSD'].replace('[\$,]', '', regex=True)
 data['AmountInUSD'] = pd.to_numeric(data['AmountInUSD'], errors='coerce')
 ```
-### Analysis 1: Ecosystem Change Over Time
+### Analysis 1:Ecosystem Change Over Time
 a. Industry Growth Over Years
 
 Python code:
